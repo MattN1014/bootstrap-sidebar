@@ -1,0 +1,64 @@
+//variables
+
+@im: !important;
+@primary: #0097E2;
+@primary2: #34495e;
+@secondry: #45B7F0;
+@b: #000000;
+@w: #ffffff;
+@light-grey: #f3f3f3;
+
+html,
+body {
+    background-color: @w;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+.wrapper {
+	align-items: stretch;
+	display: flex;
+}
+
+#sidebar {
+	background-color: @primary2;
+	color: @w;
+	height: 100vh;
+	min-width: 80px;
+	max-width: 80px;
+	text-align: center;
+	transition: all 0.3s;
+}
+
+#sidebar ul li a {
+	color: @w;
+	font-size: 0.85em;
+	padding: 20px 1px;
+	text-align: center;
+}
+
+#sidebar ul li a i {
+	display: block;
+	font-size: 1.8em;
+	margin-bottom: 5px;
+	margin-right: 0;
+}
+
+#sidebar ul li a:hover {
+	color: lighten(@b, 50%);
+	text-decoration: none;
+}
+
+.content {
+	min-height: 100vh;
+	transition: all 0.3s;
+	min-width: 100vw;
+	overflow-y: hidden;
+}
