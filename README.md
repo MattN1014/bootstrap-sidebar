@@ -1,9 +1,9 @@
 # bootstrap-sidebar
 
-This is a basic Bootstrap template which includes a sidebar menu. 
+This is a Bootstrap icon sidebar layout.  
 
-Feel free to use this template as and when you want.  
+It uses basic CSS styles & the Bootstrap framework to get the layout.  
 
-If you see anything you would want to improve please feel free to do so via GitHub.  
+If you want to make changes to this then please feel free to do so via the normal GitHub routes.  
 
-Cheers & have fun.  
+If you want to use this in any of your projects then please feel free to do so.  
